@@ -1,0 +1,59 @@
+:root{
+  --pink: #f14e95;
+  --bg: #0a0a0a;
+  --shadow: 0 2px 3px rgb (0.0.0/0.5);
+}
+
+.body{font-size: 1.2rem;
+  font-family: 'work sans', sans-serif;
+  min-height: 2000px}
+
+.hero{min-height: 100vh;
+  
+  background-color: var(--bg)}
+.hero h1{font-family: 'sacramento', cursive
+  ;font-size: 6rem
+}
+
+.hero h4 {
+  font-size: 1rem
+}
+
+.hero p {
+  font-size: 1rem
+}
+.hero a {
+  color: pink;
+  background-color: whitesmoke
+}
+.hero a:hover{background-color: palevioletred
+  ;color: white}
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.time-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 80px;
+}
+
+.time-box span {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.time-box small {
+  font-size: 14px;
+}
+#hero{
+  background-image: url(fotobg.jpeg);
+background-size: cover;
+
+background-position: center 40%;
+}
